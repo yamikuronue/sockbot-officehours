@@ -1,0 +1,28 @@
+{
+  "name": "sockbot-officehours",
+  "version": "1.0.0",
+  "description": "Office hours plugin for sockbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamikuronue/sockbot-officehours.git"
+  },
+  "author": "yamikuronue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yamikuronue/sockbot-officehours/issues"
+  },
+  "homepage": "https://github.com/yamikuronue/sockbot-officehours#readme",
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3",
+    "sinon": "^3.3.0",
+    "sinon-chai": "^2.13.0"
+  }
+}
