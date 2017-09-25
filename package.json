@@ -1,6 +1,6 @@
 {
   "name": "sockbot-officehours",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Office hours plugin for sockbot",
   "main": "index.js",
   "scripts": {
