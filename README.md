@@ -19,7 +19,10 @@ plugins:
     startOfBusiness: 07:00 am
     endOfBusiness: 05:00 pm
     msg: We are currently out of the office.
+    channels:
+      - #general
 ```
 2. Run `sockbot config.yml`
 3. Observe bot behavior
 
+Note: "Channels" is a whitelist; if you leave it off, the bot will reply in all configured rooms. 
